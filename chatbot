@@ -1,0 +1,33 @@
+print("hello, I'm a chatbot for health services.")
+print("press 1 for you're suffering from any disease")
+print("press 2 for vaccines")
+print("press 3 for ambulance services")
+userinput = int(input("Enter your choice"))
+if userinput== 1:
+    print("press 1 for common cold or fever")
+    print("press 2 for infectious diseases")
+    userinput = int(input("Enter your choice"))
+    if userinput== 1:
+        print("please take paracetamol")
+    else:
+        print("please visit your nearest hospital")
+elif userinput== 2:
+    print("press 1 for 1st dose")
+    print("press 2 for 2nd dose")
+    userinput = int(input("Enter your choice"))
+    if userinput== 1:
+        print("please come to the nearest vaccine centre with your aadhar")
+    else:
+        print("please come to the vaccine centre with records of the previous dose")
+elif userinput==3:
+    print("press 1 if you live in the centre of the City")
+    print("press 2 if you live on the outskirts of City")
+    userinput = int(input("Enter your choice"))
+    if userinput== 1:
+        print("the ambulance will arrive shortly")
+    else:
+        print("the ambulance might take a little time to arrive")
+else:
+    print("invalid choice")
+print("Thank you for using the chatbot, do take care of your health")
+    
